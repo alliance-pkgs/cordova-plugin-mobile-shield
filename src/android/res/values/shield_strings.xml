@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shield_keyboard_button_next">Next</string>
+    <string name="shield_amp" translatable="false">&amp;</string>
+    <string name="shield_apos" translatable="false">\'</string>
+    <string name="shield_quot" translatable="false">\"</string>
+    <string name="shield_lt" translatable="false">&lt;</string>
+    <string name="shield_gt" translatable="false">&gt;</string>
+    <string name="shield_vbar" translatable="false">|</string>
+</resources>

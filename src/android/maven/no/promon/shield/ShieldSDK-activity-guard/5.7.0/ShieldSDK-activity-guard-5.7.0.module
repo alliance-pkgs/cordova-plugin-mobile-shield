@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "no.promon.shield",
+    "module": "ShieldSDK-activity-guard",
+    "version": "5.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-activity-guard-5.7.0.aar",
+          "url": "ShieldSDK-activity-guard-5.7.0.aar",
+          "size": 2769,
+          "sha512": "a0dad2f6aa43524c79b11e52873bb9c38d308c3a9febd3334a70b1b32fd64a7c4fc825eaba32bfa2a14119fe9db9b8028c9fd5a1f6cefe21cbedb24a65995ee6",
+          "sha256": "7351a181cf09894fbc958e4af750acfa94af5e821f0079906ab209bacf13d611",
+          "sha1": "596c564fd1c6ce0dd6dd7ccb69f459485b18a49a",
+          "md5": "2ba53027dde87b39f6958c168d920486"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "no.promon.shield",
+          "module": "ShieldSDK-common",
+          "version": {
+            "requires": "5.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShieldSDK-activity-guard-5.7.0.aar",
+          "url": "ShieldSDK-activity-guard-5.7.0.aar",
+          "size": 2769,
+          "sha512": "a0dad2f6aa43524c79b11e52873bb9c38d308c3a9febd3334a70b1b32fd64a7c4fc825eaba32bfa2a14119fe9db9b8028c9fd5a1f6cefe21cbedb24a65995ee6",
+          "sha256": "7351a181cf09894fbc958e4af750acfa94af5e821f0079906ab209bacf13d611",
+          "sha1": "596c564fd1c6ce0dd6dd7ccb69f459485b18a49a",
+          "md5": "2ba53027dde87b39f6958c168d920486"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-activity-guard-5.7.0-javadoc.jar",
+          "url": "ShieldSDK-activity-guard-5.7.0-javadoc.jar",
+          "size": 297150,
+          "sha512": "57b112621d117b287083461d3df3997ed1aa19a6f40ace73bb87a148db8c030e88f891767d066f8d30431417dea2e7e69f88292769c2567c5f183312e74f8a0c",
+          "sha256": "ce25a12ddc7d6326f1a75918dcbcc5372520934e7f127520c45a4d9a26ddd2a7",
+          "sha1": "6497ce5c9cadc2e129248e086fb661bc78092408",
+          "md5": "cff59d9ee8c48e1d5a7a611e2a9dd6fe"
+        }
+      ]
+    }
+  ]
+}

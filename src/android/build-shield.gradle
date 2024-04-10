@@ -1,0 +1,11 @@
+dependencies {
+	implementation files("../app/libs/ShieldSDK.jar")
+}
+
+android {
+	buildTypes {
+		release {
+			proguardFile '../app/src/main/proguard.shield.cfg'
+		}
+	}
+}

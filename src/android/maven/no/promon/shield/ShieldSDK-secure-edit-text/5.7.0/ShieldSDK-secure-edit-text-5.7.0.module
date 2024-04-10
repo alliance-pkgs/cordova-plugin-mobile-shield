@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "no.promon.shield",
+    "module": "ShieldSDK-secure-edit-text",
+    "version": "5.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-secure-edit-text-5.7.0.aar",
+          "url": "ShieldSDK-secure-edit-text-5.7.0.aar",
+          "size": 43705,
+          "sha512": "164263619fd452d7425286fa99b54c9b871be641ba8537fadaa6b1cdfd2539aba4238121e7357b3a45729643d8bd4cbc233c991cf48ea3ac8b66420daccc4787",
+          "sha256": "2472d3bc30acd4faea113fdeb921bc0ab5ea97a6a1b37fe5eada32c19fb97248",
+          "sha1": "b114127484b04cb4fc17374634e9ca33204d1dbf",
+          "md5": "d6b1fdbc21118c2dc53218f616c745b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "no.promon.shield",
+          "module": "ShieldSDK-common",
+          "version": {
+            "requires": "5.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShieldSDK-secure-edit-text-5.7.0.aar",
+          "url": "ShieldSDK-secure-edit-text-5.7.0.aar",
+          "size": 43705,
+          "sha512": "164263619fd452d7425286fa99b54c9b871be641ba8537fadaa6b1cdfd2539aba4238121e7357b3a45729643d8bd4cbc233c991cf48ea3ac8b66420daccc4787",
+          "sha256": "2472d3bc30acd4faea113fdeb921bc0ab5ea97a6a1b37fe5eada32c19fb97248",
+          "sha1": "b114127484b04cb4fc17374634e9ca33204d1dbf",
+          "md5": "d6b1fdbc21118c2dc53218f616c745b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-secure-edit-text-5.7.0-javadoc.jar",
+          "url": "ShieldSDK-secure-edit-text-5.7.0-javadoc.jar",
+          "size": 321654,
+          "sha512": "2030b1997a1ab1ec84ef191c3bee55d5734f5dd7cdde04639e58d71b11c7973824be3ad02a886a14d19964a34715e379cfc8a53fbc404fb1b62c87af4ed07508",
+          "sha256": "bb1001f1acf2e03c8316e24d7f921810364e90a92dbf79d7049eab6631defc07",
+          "sha1": "6bf09e908048457324d68822c5ce1f0ea2a060ec",
+          "md5": "fc398f4c5cedced792ddad0dcfe1e450"
+        }
+      ]
+    }
+  ]
+}

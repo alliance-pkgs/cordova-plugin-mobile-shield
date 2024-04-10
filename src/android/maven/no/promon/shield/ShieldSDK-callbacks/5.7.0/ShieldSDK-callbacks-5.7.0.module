@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "no.promon.shield",
+    "module": "ShieldSDK-callbacks",
+    "version": "5.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-callbacks-5.7.0.aar",
+          "url": "ShieldSDK-callbacks-5.7.0.aar",
+          "size": 18793,
+          "sha512": "bb6420680e8c364db6b2d4f9195c27fc8e0d18191a2e48a2b1610c6ada8ecbc5e657813aea7810cd37b8397ed076ad3cab254a2c87d28a60fe5314be7c1eef7d",
+          "sha256": "48556ea75d4574e65b66569107c75dba78adb12fdeb3eb2fd1ca9d00f0764560",
+          "sha1": "ecfef0d85ede05cf5745418b65e14951cb99b96a",
+          "md5": "97450d347ea2cd320b72cf9cb10c57a8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "no.promon.shield",
+          "module": "ShieldSDK-common",
+          "version": {
+            "requires": "5.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ShieldSDK-callbacks-5.7.0.aar",
+          "url": "ShieldSDK-callbacks-5.7.0.aar",
+          "size": 18793,
+          "sha512": "bb6420680e8c364db6b2d4f9195c27fc8e0d18191a2e48a2b1610c6ada8ecbc5e657813aea7810cd37b8397ed076ad3cab254a2c87d28a60fe5314be7c1eef7d",
+          "sha256": "48556ea75d4574e65b66569107c75dba78adb12fdeb3eb2fd1ca9d00f0764560",
+          "sha1": "ecfef0d85ede05cf5745418b65e14951cb99b96a",
+          "md5": "97450d347ea2cd320b72cf9cb10c57a8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ShieldSDK-callbacks-5.7.0-javadoc.jar",
+          "url": "ShieldSDK-callbacks-5.7.0-javadoc.jar",
+          "size": 357814,
+          "sha512": "e931af43960536cfe89e6b1d9d98ef7aa744b73f4dea023e39212ebfbccede25c83b3580569d0e512a657de60b5235e37ef6022f06e51c2c9f742175c9d31eda",
+          "sha256": "01495accffde9df9d96d0aebfaef012fab410119a2d7a053bd7c40811d2967aa",
+          "sha1": "4180133e3c3d5bf08d3059053b96d995d5d31e09",
+          "md5": "c1b428e026c5f5e6bd4d2cdeee55449e"
+        }
+      ]
+    }
+  ]
+}

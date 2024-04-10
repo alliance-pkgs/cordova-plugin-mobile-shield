@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-mobile-shield",
+  "version": "1.0.0",
+  "description": "Cordova plugin to provide proactive security against a wide range of attacks, such as tampering, debugging, code injection, code modification and stealing of data from the app",
+  "cordova": {
+    "id": "cordova-plugin-mobile-shield",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "ios",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "shield"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}

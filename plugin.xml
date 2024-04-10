@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-mobile-shield" version="1.0.0">
+  <name>MobileShield</name>
+  <description>Cordova plugin to provide proactive security against a wide range of attacks, such as tampering, debugging, code injection, code modification and stealing of data from the app</description>
+  <keywords>cordova,plugin,android,ios,ecosystem:cordova,cordova-android,cordova-ios,shield</keywords>
+
+  <!-- <platform name="android">
+    <source-file src="src/android/libs/ShieldSDK.jar" target-dir="libs" />
+    <resource-file src="src/android/proguard/proguard.shield.cfg" target="proguard.shield.cfg"/>
+    <framework src="src/android/build-shield.gradle" custom="true" type="gradleReference" />
+  </platform> -->
+
+  <platform name="ios">
+    <!-- <source-file src="src/ios/ios-armv7_armv7s_arm64/ShieldSDK.framework" target-dir="lib" framework="true" />
+    <framework src="src/ios/ios-armv7_armv7s_arm64/ShieldSDK.framework" embed="true" custom="true" /> -->
+    <!-- <source-file src="src/ios/ios-arm64_armv7_armv7s/ShieldSDK.framework" target-dir="lib" framework="true" />
+    <framework src="src/ios/ios-arm64_armv7_armv7s/ShieldSDK.framework" embed="true" custom="true" /> -->
+
+    <source-file src="src/ios/ShieldSDK.xcframework/ios-arm64/ShieldSDK.framework" target-dir="lib" framework="true" />
+    <framework src="src/ios/ShieldSDK.xcframework/ios-arm64/ShieldSDK.framework" embed="true" custom="true" />
+  </platform>
+</plugin>
